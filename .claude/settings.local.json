@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\reviewer\\\\MVC_skelton\\\\Project1\" -Recurse -Force)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git *)"
+    ]
+  }
+}
