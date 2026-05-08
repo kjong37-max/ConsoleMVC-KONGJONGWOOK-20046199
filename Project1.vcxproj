@@ -131,7 +131,18 @@
     </Link>
   </ItemDefinitionGroup>
 
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Model\StudentModel.cpp" />
+    <ClCompile Include="View\View.cpp" />
+    <ClCompile Include="Controller\Controller.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model\Student.h" />
+    <ClInclude Include="Model\StudentModel.h" />
+    <ClInclude Include="View\View.h" />
+    <ClInclude Include="Controller\Controller.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
