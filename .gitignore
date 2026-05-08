@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+Win32/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Precompiled headers
+*.pch
+*.gch
+
+# CMake (미래 대비)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# 편집기 임시 파일
+*.bak
+*.tmp
+*~
